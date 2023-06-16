@@ -1,0 +1,296 @@
+
+
+nav li{
+    display: inline-block;
+}
+
+
+header{
+    display: flex;
+    width: 100%;
+
+    position: fixed;
+    z-index: 1;
+}
+body{
+   background-color:#05020D;
+    
+}
+
+.logo{
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+nav{    
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+nav a,  .cmamut a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    
+    padding: 5px;
+    margin: 5px;
+    opacity: .7;
+    border-radius: 5px;
+}
+
+nav a:hover ,  .cmamut a:hover{
+    opacity: 1; 
+}
+
+.principal img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.principal{
+    position: relative;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    /*background-color: black;*/
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    height: 300px;
+    padding-left: 10px;
+}
+.contenedor h1,p{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    display: block;
+    width: 50%;
+    height: 100%;
+    /*background-color: blue;*/
+}
+
+.formulario{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    /*background-color: aqua;*/
+}
+.text h1{
+    color: white;
+    font-size: 34px;
+}
+.text p {
+    color: white;
+    font-size: 20px;
+}
+
+.contenedor2{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    width: 100%;
+    height: 300px;
+    padding-left: 10px;
+}
+
+
+.box1 {
+    display: inline-block;
+    width: 50%;
+    background: linear-gradient(270deg, #0a587c 0%, rgba(43, 112, 61, 0.771) 31.77%, rgba(64, 28, 205, 0.547) 60.42%, rgba(255, 4, 4, 0.261) 99.99%, rgba(225, 30, 30, 0) 100%);
+    box-shadow: 10px 5px 5px black;
+    height: 520px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px ;
+}
+.box2{
+    display: inline-block;
+    width: 50%;
+    background-color: #062537;
+    box-shadow: 10px 5px 5px black;
+    height: 520px;
+    
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px ;
+    
+}
+
+.cmamut{
+    display: block;
+    display: flex;
+    justify-content: center;
+    
+}
+.cmamut a{
+    color: black;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: white;
+}
+
+
+.contenedor2 .box1 img{
+    position: relative;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+
+    margin-left: 14%;
+    margin-right: 10%;
+    width: 70%;
+    height: 30%;
+
+    object-fit: cover;
+    box-shadow: 14px 20px 30px 1px black;
+}
+.contenedor2 .box1 p{
+    color: #05020D;
+}
+.contenedor2 .box2 img{
+    background-color: rgba(116, 55, 165, 0.397);
+    opacity: 1;
+    width: 90px;
+    height: 90px;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    opacity: .7;
+}
+.contenedor2 .box2 img:hover{
+    opacity: 1;
+    margin-top: 80px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -20px;
+    width: 130px;
+    height: 130px;
+}
+
+
+.contenedor2 p{
+    margin-left: 10px;
+}
+
+.Icon{
+    display: flex;
+    
+    position: relative;
+    justify-content: center;
+
+}
+.Icon img{
+    
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.box1 a, .box2 a{
+    display:flex;
+    text-decoration: none;
+    position: relative;
+    background-color: #6037cade;
+    color: white;
+    opacity: .7;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 360px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.box1 a:hover, .box2 a:hover{
+    opacity: 1;
+}
+
+.box1 p, .box2 p, .box1 h1, .box2 h1{
+    margin-left: 40px;
+}
+
+.box2 h1{
+    color: white;
+    margin-top: 85px;
+}
+.box2 p {
+    color: white;
+    margin-top: 1px;
+}
+
+/**/
+.contenedor3{
+    display: flex;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    justify-content: center;
+    top: 800px;
+    margin-left: 230px;
+    margin-right: 230px;
+    width: auto;
+    height: 400px;
+    
+
+}
+
+.contenedor3 .box_1, .box_2, .box_3{
+    
+    width: 400px;
+    height: 300px;
+    background-color: #383247de;
+    border-radius: 5px;
+    padding: 0px;
+    margin-left : 8px;
+    margin-right: 8px;
+}
+
+.contenedor3 img{
+    display: relative;
+    background: #3E3B44;
+    box-shadow: inset 0px 0px 6px 4px rgba(190, 182, 182, 0.25);
+
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    width: 50px;
+    height: 50px;
+}
+.contenedor3 h1, p{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+.contenedor3 h1{
+    
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.contenedor3 p{
+    font-size: 10px;
+    text-align: justify;
+}
+
+.textu{
+    font-size: 55px;
+    margin-left: 250px;
+}
